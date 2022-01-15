@@ -1,0 +1,7 @@
+:root {
+    --yellow_color: #faffc1;
+    --blue_color: #00c1fe;
+  }
+  .cont{
+    background-color: var(--yellow_color);
+  }

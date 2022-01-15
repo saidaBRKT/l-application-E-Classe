@@ -1,13 +1,13 @@
-:root{
-    --yellow_color:#FAFFC1;
-    --blue_color:#00C1FE;
+:root {
+  --yellow_color: #faffc1;
+  --blue_color: #00c1fe;
 }
-.container{
-    padding: 0%;
+.container-fluid {
+  padding: 0%;
 }
 .cont {
   background-color: white;
-  padding: 0 20px;
+  padding: 10px 20px;
   justify-content: center;
   align-items: center;
 }
@@ -24,13 +24,12 @@
   align-items: center;
   margin: 20px 0;
 }
-.cont .sign_in h4{
-    font-weight: 600;
-    
+.cont .sign_in h4 {
+  font-weight: 600;
 }
-.cont .sign_in p{
-    color: #6C6C6C;
-    font-weight: 400;
+.cont .sign_in p {
+  color: #6c6c6c;
+  font-weight: 400;
 }
 
 .cont .email,
@@ -44,13 +43,12 @@
   border-radius: 4px;
   padding: 8px;
 }
-.cont form label{
-  color: #6C6C6C;
+.cont form label {
+  color: #6c6c6c;
   font-weight: 500;
-  
 }
 ::placeholder {
-  color: #CDCDCD;
+  color: #cdcdcd;
   font-size: 14px;
 }
 .btn_sign_in .btn {
@@ -76,7 +74,6 @@
 }
 
 @media screen and (min-width: 330px) {
-   
   .forget_pass {
     flex-wrap: nowrap;
   }
@@ -88,21 +85,20 @@
 }
 
 @media screen and (min-width: 450px) {
-    .cont{
-        border-radius: 10px;
-    }
-  .container {
-      height: 100vh;
-      width: 100%;
-      background-image: linear-gradient(to right,var(--blue_color),var(--yellow_color));
+  .cont {
+    border-radius: 10px;
+  }
+  .container-fluid {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(69.66deg, var(--blue_color) 19.39%, var(--yellow_color) 96.69%);
     display: flex;
-  align-items: center;justify-content: center;
-    
+    align-items: center;
+    justify-content: center;
     align-items: center;
   }
   .cont {
     border-radius: 17px;
-      width: 400px;
+    width: 400px;
   }
-  
 }
