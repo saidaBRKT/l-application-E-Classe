@@ -158,8 +158,8 @@ thead th:last-child{
   color: var(--bg);
 }
 td img{
-  width: 30px;
-  height: 30px;
+  width: 60px;
+  height: 40px;
 }
 
 /*payment*/
