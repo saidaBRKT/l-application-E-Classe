@@ -1,0 +1,39 @@
+:root {
+    --yellow_color: #faffc1;
+    --blue_color: #00c1fe;
+    --bg:#E5E5E5;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cont{
+    background-color: var(--yellow_color);
+height: 100vh;
+  }
+tr{
+    font-size: 9px;
+    text-align: center;
+    
+}
+th{
+    background-color: var(--bg);
+}
+.col2{
+      background-color: var(--bg);
+  }
+  
+tr:nth-child(even){
+background-color: #fff;
+}
+
+  li{
+      width: 100%;
+      padding: 0 10px;
+      border-radius: 5px;
+  }
+  li:hover{
+      background-color:var(--blue_color);
+  }
