@@ -1,0 +1,174 @@
+:root {
+  --yellow_color: #faffc1;
+  --blue_color: #00c1fe;
+  --bg: #e5e5e5;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.cont {
+  background-color: var(--yellow_color);
+  height: 100vh;
+}
+.title div h1 {
+  border-left: 5px solid var(--blue_color);
+  padding-left: 5px;
+  font-weight: 400;
+}
+.profile img{
+  width:70px;
+   height:70px;
+}
+li {
+  width: 100%;
+  padding: 0 0 0 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+li:hover {
+  background-color: var(--blue_color);
+}
+.search input {
+  position: relative;
+}
+.search i {
+  position: absolute;
+  right: 80px;
+}
+
+/*students and payment ------------------------------------------------------------------*/
+.caption .plus {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--blue_color);
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.caption .plus i {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 100%;
+  height: 100%;
+  color: var(--blue_color);
+}
+.caption i,
+td span i {
+  color: var(--blue_color);
+}
+.button {
+  width: 200px;
+  margin-left: 20px;
+  background-color: var(--blue_color);
+}
+.col2 {
+  background-color: var(--bg);
+}
+tr {
+  font-size: 9px;
+  text-align: center;
+}
+thead th:last-child{
+  color: var(--bg);
+}
+
+/*home ------------------------------------------------------------------*/
+
+.cont_cards {
+  margin: auto;
+}
+.cards {
+    left: 34%;
+  }
+.cards .carditems {
+  border-radius: 8px;
+  width: 170px;
+  height: 150px;
+}
+.carditems--blue {
+  background-color: #f0f9ff;
+}
+.carditems--blue i {
+  color: #74c1ed;
+}
+.carditems--rose {
+  background-color: #fef6fb;
+}
+.carditems--rose i {
+  color: #ee95c5;
+}
+.carditems--yellow {
+  background-color: #fefbec;
+}
+.carditems--yellow i {
+  color: #00c1fe;
+}
+.carditems--gradient {
+  background: linear-gradient(110.42deg, #00c1fe 18.27%, #faffc1 91.84%);
+}
+.card__items--gradient i {
+  color: #ffffff;
+}
+.nbr {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.icone{
+    width: 50px;
+    height: 50px;
+}
+.econs, .econs2 {
+  width: 27px;
+}
+.econsNav {
+  margin-left: 300px;
+}
+.card_1 {
+  position: absolute;
+  width: 255px;
+  height: 157px;
+  left: 300px;
+  top: 90px;
+  background: #f0f9ff;
+  border-radius: 8px;
+}
+
+/*students ------------------------------------------------------------------*/
+
+.debut {
+  border-radius: 15px 0 0 15px;
+}
+.fin {
+  border-radius: 0 15px 15px 0;
+}
+.action span {
+  color: var(--blue_color);
+}
+.ligne {
+  background-color: white;
+  border: 5px var(--bg) solid;
+}
+.student tr th:first-child,.studenttr th:last-child{
+  color: var(--bg);
+}
+td img{
+  width: 30px;
+  height: 30px;
+}
+
+/*payment*/
+
+tr {
+  font-size: 9px;
+  text-align: center;
+}
+th {
+  background-color: var(--bg);
+}
+
+tr:nth-child(even) {
+  background-color: #fff;
+}

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Students</title>
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/students.css">
+    <link rel="stylesheet" href="../css/style_total.css">
     <script src="../js/bootstrap.bundle.min.js"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
         integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
@@ -21,21 +21,22 @@
 
     <main class="container-fluid">
         <div class="row flex-nowrap">
-            <div class="cont col-auto col-lg-2 px-0  sticky-top">
+            <div class="cont col-auto col-lg-2 px-0 sticky-top h-100">
                 <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-                    <a href="/" class="d-flex align-items-center pb-3 text-dark text-decoration-none">
-                        <span class="fs-4 d-none d-sm-inline">E-classe</span>
+                    <a href="/" class=" title d-flex align-items-center pb-3 text-dark text-decoration-none">
+                        <div class="fs-4 d-none d-sm-inline"><h1>E-classe</h1> </div>
                     </a>
                     <div class="profile">
-                        
-                        <img src="../images/people-peoples-homeless-male.jpg" class="rounded-circle d-none d-sm-flex d-flex flex-column justify-content-center align-items-center"
-                            width="100px" height="100px" alt="profile">
-                            <div class="admin d-flex flex-column justify-content-center align-items-center">
-                                <span class="text-dark d-none d-sm-flex">Name Admin</span>
-                                <span class="text-primary d-none d-sm-flex">Admin</span>
-                            </div>
+
+                        <img src="../images/people-peoples-homeless-male.jpg"
+                            class="rounded-circle d-none d-sm-flex d-flex flex-column justify-content-center align-items-center"
+                           alt="profile">
+                        <div class="admin d-flex flex-column justify-content-center align-items-center mb-3">
+                            <span class="text-dark d-none d-sm-flex">Name Admin</span>
+                            <span class="text-primary d-none d-sm-flex">Admin</span>
+                        </div>
                     </div>
-                    <ul class="nav nav-pills flex-column mb-0 mt-0 mt-2 align-items-md-center" id="menu">
+                    <ul class="nav nav-pills flex-column mb-0 mt-0  align-items-md-center" id="menu">
                         <li class="nav-item border-5 border-primary">
                             <a href="home.html" class="nav-link align-middle px-0 text-dark">
                                 <i class="fal fa-home-lg-alt"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
@@ -91,162 +92,131 @@
 
 
             <div class=" col2 col d-flex flex-column">
-                <nav class="navbar navbar-light sticky-top  ">
+                <nav class="navbar navbar-light sticky-top">
                     <div class="container-fluid">
                         <i class="fal fa-caret-circle-left"></i>
-                      <form class="d-flex">
-                          <div class=" itoub d-flex align-items-center">
-                        <input class="d-none d-sm-block ok form-control me-2 " type="search" placeholder="Search" aria-label="Search...">
-                        <i class="fal fa-search"></i>
-                           </div>
-                        <i class="fal fa-bell p-3"></i>
-                      </form>
+                        <form class="d-flex">
+                            <div class="search  d-flex align-items-center d">
+                                <input class="d-none d-sm-block ok form-control me-2 " type="search"
+                                    placeholder="Search" aria-label="Search...">
+                                <i class="fal fa-search me-2"></i>
+                            </div>
+                            <i class="fal fa-bell p-3"></i>
+                        </form>
                     </div>
-                  </nav>
-                  <!---->
-                  <nav class="navbar navbar-light sticky-top">
-                    <div class="container-fluid d-flex">
-                        <div class="d-flex flex-grow-1 justify-content-between">
-                            
-
-                            
-<h1>Students list</h1>
-                            <div class=" itoub d-flex align-items-center">
-                                <i class="far fa-sort text-primary"></i>
-                               </div>
+                </nav>
+                <!---->
+                
+                    <div class="container-fluid d-flex sticky-top flex-wrap flex-sm-nowrap ">
+                        <div class=" d-flex flex-grow-1 justify-content-between ">
+                            <h2>Students list</h2>
+                            <div class="caption d-flex align-items-center">
+                                <i class="far fa-sort"></i>
+                                <span class="plus d-flex d-sm-none "><i class="fas fa-plus"></i></span>
+                            </div>
                         </div>
-                        
-                      
-                         
-                           <DIV class="button d-flex">
-                           <button type="button" class="btn btn-primary w-100">ADD NEW STUDENT</button>
+                        <DIV class="button d-none d-sm-flex rounded">
+                            <button type="button" class="btn text-white w-100 ">ADD NEW STUDENT</button>
                         </DIV>
-                   
                     </div>
-                  </nav>
-                   <!--table-->
                 
-              
-    <div class="container-fluid">
-        <div class=" table-responsive ">
-            <table class="table  ">
-                
-                <thead>
-                    <tr class="center_t ">
-                        <th></th>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Phone</th>
-                        <th>Enroll Number</th>
-                        <th>Date of admission</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="ligne center_t">
-                        <td class="debut"><img src="../images/people-peoples-homeless-male.jpg" width="30px" height="30px" alt=""></td>
-                        <td>saida</td>
-                        <td>saidabarakat@gmail.com</td>
-                        <td>0000000</td>
-                        <td>11111111111</td>
-                        <td>00/00/0000</td>
-                        <td class="action fin">
-                            <div class="d-flex">
-                            <span title="Modifier" class="pe-3 text-primary"><i class="fas fa-edit"></i></span>
-                            <span title="Supprimer" class="text-primary"><i class="fas fa-trash-alt"></i></span>
-                        </div>
-                        </td>
-                    </tr>
-                    <tr class="ligne center_t">
-                        <td class="debut"><img src="../images/people-peoples-homeless-male.jpg" width="30px" height="30px" alt=""></td>
-                        <td>saida</td>
-                        <td>saidabarakat@gmail.com</td>
-                        <td>0000000</td>
-                        <td>11111111111</td>
-                        <td>00/00/0000</td>
-                        <td class="action fin">
-                            <div class="d-flex">
-                            <span title="Modifier" class="pe-3 text-primary"><i class="fas fa-edit"></i></span>
-                            <span title="Supprimer" class="text-primary"><i class="fas fa-trash-alt"></i></span>
-                        </div>
-                        </td>
-                    </tr>
-                    <tr class="ligne center_t">
-                        <td class="debut"><img src="../images/people-peoples-homeless-male.jpg" width="30px" height="30px" alt=""></td>
-                        <td>saida</td>
-                        <td>saidabarakat@gmail.com</td>
-                        <td>0000000</td>
-                        <td>11111111111</td>
-                        <td>00/00/0000</td>
-                        <td class="action fin">
-                            <div class="d-flex">
-                            <span title="Modifier" class="pe-3 text-primary"><i class="fas fa-edit"></i></span>
-                            <span title="Supprimer" class="text-primary"><i class="fas fa-trash-alt"></i></span>
-                        </div>
-                        </td>
-                    </tr>
-                    <tr class="ligne center_t">
-                        <td class="debut"><img src="../images/people-peoples-homeless-male.jpg" width="30px" height="30px" alt=""></td>
-                        <td>saida</td>
-                        <td>saidabarakat@gmail.com</td>
-                        <td>0000000</td>
-                        <td>11111111111</td>
-                        <td>00/00/0000</td>
-                        <td class="action fin">
-                            <div class="d-flex">
-                            <span title="Modifier" class="pe-3 text-primary"><i class="fas fa-edit"></i></span>
-                            <span title="Supprimer" class="text-primary"><i class="fas fa-trash-alt"></i></span>
-                        </div>
-                        </td>
-                    </tr>
-                    <tr class="ligne center_t">
-                        <td class="debut"><img src="../images/people-peoples-homeless-male.jpg" width="30px" height="30px" alt=""></td>
-                        <td>saida</td>
-                        <td>saidabarakat@gmail.com</td>
-                        <td>0000000</td>
-                        <td>11111111111</td>
-                        <td>00/00/0000</td>
-                        <td class="action fin">
-                            <div class="d-flex">
-                            <span title="Modifier" class="pe-3 text-primary"><i class="fas fa-edit"></i></span>
-                            <span title="Supprimer" class="text-primary"><i class="fas fa-trash-alt"></i></span>
-                        </div>
-                        </td>
-                    </tr>
-                    <tr class="ligne center_t">
-                        <td class="debut"><img src="../images/people-peoples-homeless-male.jpg" width="30px" height="30px" alt=""></td>
-                        <td>saida</td>
-                        <td>saidabarakat@gmail.com</td>
-                        <td>0000000</td>
-                        <td>11111111111</td>
-                        <td>00/00/0000</td>
-                        <td class="action fin">
-                            <div class="d-flex">
-                            <span title="Modifier" class="pe-3 text-primary"><i class="fas fa-edit"></i></span>
-                            <span title="Supprimer" class="text-primary"><i class="fas fa-trash-alt"></i></span>
-                        </div>
-                        </td>
-                    </tr>
+                <!--table-->
 
-                   
-                </tbody>
-            </table>
-        </div>
-    </div>
-   
-              
+
+                <div class="container-fluid ">
+                    <div class=" table-responsive "> 
+                        <table class="table  ">
+
+                            <thead class="student">
+                                <tr class="center_t ">
+                                    <th>.</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Phone</th>
+                                    <th>Enroll Number</th>
+                                    <th>Date of admission</th>
+                                    <th>.</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr class="ligne center_t">
+                                    <td class="debut"><img src="../images/people-peoples-homeless-male.jpg"  alt=""></td>
+                                    <td>saida</td>
+                                    <td>saidabarakat@gmail.com</td>
+                                    <td>0000000</td>
+                                    <td>11111111111</td>
+                                    <td>00/00/0000</td>
+                                    <td class="action fin">
+                                        <div class="d-flex">
+                                            <span title="Modifier" class="pe-3 text-primary"><i class="fal fa-pen"></i></span>
+                                            <span title="Supprimer" class="text-primary"><i class="fal fa-trash"></i></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="ligne center_t">
+                                    <td class="debut"><img src="../images/people-peoples-homeless-male.jpg"  alt=""></td>
+                                    <td>saida</td>
+                                    <td>saidabarakat@gmail.com</td>
+                                    <td>0000000</td>
+                                    <td>11111111111</td>
+                                    <td>00/00/0000</td>
+                                    <td class="action fin">
+                                        <div class="d-flex">
+                                            <span title="Modifier" class="pe-3 text-primary"><i class="fal fa-pen"></i></span>
+                                            <span title="Supprimer" class="text-primary"><i class="fal fa-trash"></i></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="ligne center_t">
+                                    <td class="debut"><img src="../images/people-peoples-homeless-male.jpg"  alt=""></td>
+                                    <td>saida</td>
+                                    <td>saidabarakat@gmail.com</td>
+                                    <td>0000000</td>
+                                    <td>11111111111</td>
+                                    <td>00/00/0000</td>
+                                    <td class="action fin">
+                                        <div class="d-flex">
+                                            <span title="Modifier" class="pe-3 text-primary"><i class="fal fa-pen"></i></span>
+                                            <span title="Supprimer" class="text-primary"><i class="fal fa-trash"></i></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                                <tr class="ligne center_t">
+                                    <td class="debut"><img src="../images/people-peoples-homeless-male.jpg"  alt=""></td>
+                                    <td>saida</td>
+                                    <td>saidabarakat@gmail.com</td>
+                                    <td>0000000</td>
+                                    <td>11111111111</td>
+                                    <td>00/00/0000</td>
+                                    <td class="action fin">
+                                        <div class="d-flex">
+                                            <span title="Modifier" class="pe-3 text-primary"><i class="fal fa-pen"></i></span>
+                                            <span title="Supprimer" class="text-primary"><i class="fal fa-trash"></i></span>
+                                        </div>
+                                    </td>
+                                </tr>
+                               
+                               
+                          
+
+
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
+
+
             </div>
-                </div>
-               
-            
-        
+        </div>
+       
 
 
 
- 
-</main>
+
+
+
+
+    </main>
 </body>
 
 </html>
-
