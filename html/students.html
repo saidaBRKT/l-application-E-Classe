@@ -14,86 +14,75 @@
     <!---->
     <link rel="stylesheet"
         href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
-
 </head>
 
 <body>
-
     <main class="container-fluid">
         <div class="row flex-nowrap">
             <div class="cont col-auto col-lg-2 px-0 sticky-top h-100">
-                <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                <div class="d-flex flex-column align-items-center px-3 pt-2 ">
                     <a href="/" class=" title d-flex align-items-center pb-3 text-dark text-decoration-none">
-                        <div class="fs-4 d-none d-sm-inline"><h1>E-classe</h1> </div>
+                        <div class="fs-4 d-none d-sm-inline">
+                            <h1>E-classe</h1>
+                        </div>
                     </a>
-                    <div class="profile">
 
+                    <div class="profile">
                         <img src="../images/people-peoples-homeless-male.jpg"
                             class="rounded-circle d-none d-sm-flex d-flex flex-column justify-content-center align-items-center"
-                           alt="profile">
+                            alt="profile">
                         <div class="admin d-flex flex-column justify-content-center align-items-center mb-3">
                             <span class="text-dark d-none d-sm-flex">Name Admin</span>
                             <span class="text-primary d-none d-sm-flex">Admin</span>
                         </div>
                     </div>
-                    <ul class="nav nav-pills flex-column mb-0 mt-0  align-items-md-center" id="menu">
+                    <ul class="nav  flex-column mb-0 mt-0" id="menu">
                         <li class="nav-item border-5 border-primary">
                             <a href="home.html" class="nav-link align-middle px-0 text-dark">
                                 <i class="fal fa-home-lg-alt"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
                             </a>
-
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link align-middle px-0 text-dark">
                                 <i class="far fa-bookmark"></i> <span class="ms-1 d-none d-sm-inline">Cours</span>
                             </a>
-
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link align-middle px-0 text-dark">
-                                <i class="fal fa-graduation-cap"></i> <span
-                                    class="ms-1 d-none d-sm-inline">Students</span>
+                                <i class="fal fa-graduation-cap"></i>
+                                <span class="ms-1 d-none d-sm-inline">Students</span>
                             </a>
-
                         </li>
                         <li class="nav-item">
                             <a href="payment.html" class="nav-link align-middle px-0 text-dark">
-                                <i class="fal fa-usd-square"></i> <span class="ms-1 d-none d-sm-inline">Payment</span>
+                                <i class="fal fa-usd-square"></i>
+                                <span class="ms-1 d-none d-sm-inline">Payment</span>
                             </a>
-
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link align-middle px-0 text-dark">
                                 <i class="fal fa-file-chart-line"></i> <span
                                     class="ms-1 d-none d-sm-inline">Report</span>
                             </a>
-
                         </li>
                         <li class="nav-item">
                             <a href="#" class="nav-link align-middle px-0 text-dark">
                                 <i class="fal fa-sliders-v-square"></i> <span
                                     class="ms-1 d-none d-sm-inline">Setting</span>
                             </a>
-
                         </li>
                         <li class="nav-item mt-3 mt-0">
                             <a href="../index.html" class="nav-link align-middle px-0 text-dark">
                                 <span class="ms-1 d-none d-sm-inline">logout</span> <i class="fal fa-sign-out-alt"></i>
                             </a>
-
                         </li>
-
-
                     </ul>
-
                 </div>
             </div>
 
-
-
-            <div class=" col2 col d-flex flex-column">
-                <nav class="navbar navbar-light sticky-top">
-                    <div class="container-fluid">
+            <div class="container-fluid col2 col d-flex flex-column">
+                <nav class="navbar navbar-light ">
+                    <div class="container-fluid navigation bg-white">
                         <i class="fal fa-caret-circle-left"></i>
                         <form class="d-flex">
                             <div class="search  d-flex align-items-center d">
@@ -105,28 +94,23 @@
                         </form>
                     </div>
                 </nav>
-                <!---->
-                
-                    <div class="container-fluid d-flex sticky-top flex-wrap flex-sm-nowrap ">
-                        <div class=" d-flex flex-grow-1 justify-content-between ">
-                            <h2>Students list</h2>
-                            <div class="caption d-flex align-items-center">
-                                <i class="far fa-sort"></i>
-                                <span class="plus d-flex d-sm-none "><i class="fas fa-plus"></i></span>
-                            </div>
-                        </div>
-                        <DIV class="button d-none d-sm-flex rounded">
-                            <button type="button" class="btn text-white w-100 ">ADD NEW STUDENT</button>
-                        </DIV>
-                    </div>
-                
-                <!--table-->
 
+                <div class="d-flex flex-wrap flex-sm-nowrap me-2 ">
+                    <div class=" d-flex flex-grow-1 justify-content-between ">
+                        <h2>Students list</h2>
+                        <div class="caption d-flex align-items-center">
+                            <i class="far fa-sort"></i>
+                            <span class="plus d-flex d-sm-none "><i class="fas fa-plus"></i></span>
+                        </div>
+                    </div>
+                    <DIV class="button d-none d-sm-flex rounded">
+                        <button type="button" class="btn text-white w-100 ">ADD NEW STUDENT</button>
+                    </DIV>
+                </div>
 
                 <div class="container-fluid ">
-                    <div class=" table-responsive "> 
+                    <div class=" table-responsive ">
                         <table class="table  ">
-
                             <thead class="student">
                                 <tr class="center_t ">
                                     <th>.</th>
@@ -140,7 +124,7 @@
                             </thead>
                             <tbody>
                                 <tr class="ligne center_t">
-                                    <td class="debut"><img src="../images/people-peoples-homeless-male.jpg"  alt=""></td>
+                                    <td class="debut"><img src="../images/people-peoples-homeless-male.jpg" alt=""></td>
                                     <td>saida</td>
                                     <td>saidabarakat@gmail.com</td>
                                     <td>0000000</td>
@@ -148,13 +132,15 @@
                                     <td>00/00/0000</td>
                                     <td class="action fin">
                                         <div class="d-flex">
-                                            <span title="Modifier" class="pe-3 text-primary"><i class="fal fa-pen"></i></span>
-                                            <span title="Supprimer" class="text-primary"><i class="fal fa-trash"></i></span>
+                                            <span title="Modifier" class="pe-3 text-primary"><i
+                                                    class="fal fa-pen"></i></span>
+                                            <span title="Supprimer" class="text-primary"><i
+                                                    class="fal fa-trash"></i></span>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr class="ligne center_t">
-                                    <td class="debut"><img src="../images/people-peoples-homeless-male.jpg"  alt=""></td>
+                                    <td class="debut"><img src="../images/people-peoples-homeless-male.jpg" alt=""></td>
                                     <td>saida</td>
                                     <td>saidabarakat@gmail.com</td>
                                     <td>0000000</td>
@@ -162,13 +148,15 @@
                                     <td>00/00/0000</td>
                                     <td class="action fin">
                                         <div class="d-flex">
-                                            <span title="Modifier" class="pe-3 text-primary"><i class="fal fa-pen"></i></span>
-                                            <span title="Supprimer" class="text-primary"><i class="fal fa-trash"></i></span>
+                                            <span title="Modifier" class="pe-3 text-primary"><i
+                                                    class="fal fa-pen"></i></span>
+                                            <span title="Supprimer" class="text-primary"><i
+                                                    class="fal fa-trash"></i></span>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr class="ligne center_t">
-                                    <td class="debut"><img src="../images/people-peoples-homeless-male.jpg"  alt=""></td>
+                                    <td class="debut"><img src="../images/people-peoples-homeless-male.jpg" alt=""></td>
                                     <td>saida</td>
                                     <td>saidabarakat@gmail.com</td>
                                     <td>0000000</td>
@@ -176,13 +164,15 @@
                                     <td>00/00/0000</td>
                                     <td class="action fin">
                                         <div class="d-flex">
-                                            <span title="Modifier" class="pe-3 text-primary"><i class="fal fa-pen"></i></span>
-                                            <span title="Supprimer" class="text-primary"><i class="fal fa-trash"></i></span>
+                                            <span title="Modifier" class="pe-3 text-primary"><i
+                                                    class="fal fa-pen"></i></span>
+                                            <span title="Supprimer" class="text-primary"><i
+                                                    class="fal fa-trash"></i></span>
                                         </div>
                                     </td>
                                 </tr>
                                 <tr class="ligne center_t">
-                                    <td class="debut"><img src="../images/people-peoples-homeless-male.jpg"  alt=""></td>
+                                    <td class="debut"><img src="../images/people-peoples-homeless-male.jpg" alt=""></td>
                                     <td>saida</td>
                                     <td>saidabarakat@gmail.com</td>
                                     <td>0000000</td>
@@ -190,32 +180,19 @@
                                     <td>00/00/0000</td>
                                     <td class="action fin">
                                         <div class="d-flex">
-                                            <span title="Modifier" class="pe-3 text-primary"><i class="fal fa-pen"></i></span>
-                                            <span title="Supprimer" class="text-primary"><i class="fal fa-trash"></i></span>
+                                            <span title="Modifier" class="pe-3 text-primary"><i
+                                                    class="fal fa-pen"></i></span>
+                                            <span title="Supprimer" class="text-primary"><i
+                                                    class="fal fa-trash"></i></span>
                                         </div>
                                     </td>
                                 </tr>
-                               
-                               
-                          
-
-
                             </tbody>
                         </table>
                     </div>
                 </div>
-
-
             </div>
         </div>
-       
-
-
-
-
-
-
-
     </main>
 </body>
 

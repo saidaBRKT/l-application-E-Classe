@@ -36,7 +36,10 @@ li:hover {
   position: absolute;
   right: 80px;
 }
+.navigation{
+margin: 0;
 
+}
 /*students and payment ------------------------------------------------------------------*/
 .caption .plus {
   position: relative;
