@@ -161,14 +161,14 @@ td img{
 
 /*payment*/
 
-tr {
+.payment tr {
   font-size: 9px;
   text-align: center;
 }
-th {
+.payment th, .payment tr{
   background-color: var(--bg);
 }
 
-tr:nth-child(even) {
+.payment tr:nth-child(odd) {
   background-color: #fff;
 }
