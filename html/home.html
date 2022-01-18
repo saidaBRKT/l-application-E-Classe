@@ -19,7 +19,7 @@
   <main class="container-fluid">
     <div class="row flex-nowrap">
       <div class="cont col-auto col-lg-2 px-0 sticky-top h-100">
-        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+        <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white h-100 min-vh-100">
           <a href="/" class=" title d-flex align-items-center pb-3 text-dark text-decoration-none">
             <div class="fs-4 d-none d-sm-inline">
               <h1>E-classe</h1>
@@ -35,7 +35,7 @@
             </div>
           </div>
           <ul class="nav nav-pills flex-column mb-0 mt-0  align-items-md-center" id="menu">
-            <li class="nav-item border-5 border-primary">
+            <li class="nav-item li_home ">
               <a href="#" class="nav-link align-middle px-0 text-dark">
                 <i class="fal fa-home-lg-alt"></i> <span class="ms-1 d-none d-sm-inline">Home</span>
               </a>
@@ -87,49 +87,55 @@
             </form>
           </div>
         </nav>
-
-        <div class=" container-fluid cont_cards col py-3 justify-content-center align-items-center">
-          <div class="cards row gap-2 justify-content-center mt-5">
-            <div class=" carditems carditems--blue col-md-3 position-relative">
-              <div class="cardstudents d-flex flex-column gap-2 mt-3">
-                <i class="far fa-graduation-cap display-6 "></i>
-                <span>Students</span>
+        <div class="container-fluid cont_cards col py-3 justify-content-center align-items-center">
+          <div class="cards row justify-content-center ">
+          <div class="card col-md-3 ps-0 pe-0 me-1 mb-2" style="width: 12rem; height: 9rem;">
+              <div class="card-body carditems--blue position-relative">
+                  <div class="cardstudents d-flex flex-column mt-2">
+                      <i class="far fa-graduation-cap display-6 "></i>
+                      <span>Students</span>
+                  </div>
+                  <div>
+                      <span class="h5 fw-bold nbr">243</span>
+                  </div>
               </div>
-              <div class="cardnbr-students">
-                <span class="h5 fw-bold nbr">243</span>
-              </div>
-            </div>
-
-            <div class=" carditems carditems--rose col-md-3 position-relative">
-              <div class="cardCourse d-flex flex-column gap-2 mt-3">
-                <i class="fal fa-bookmark display-6"></i>
-                <span>Course</span>
-              </div>
-              <div class="cardnbr-course">
-                <span class="h5 fw-bold nbr">13</span>
-              </div>
-            </div>
-
-            <div class=" carditems carditems--yellow col-md-3 position-relative">
-              <div class="cardpayments d-flex flex-column gap-2 mt-3">
-                <i class="fal fa-usd-square display-6"></i>
-                <span>Payments</span>
-              </div>
-              <div class="cardpayments">
-                <span class="h5 fw-bold nbr">DHS 556,000</span>
-              </div>
-            </div>
-
-            <div class="carditems carditems--gradient col-md-3 position-relative">
-              <div class="card__users d-flex flex-column gap-2 mt-3">
-                <i class="fal fa-user display-6"></i>
-                <span>Users</span>
-              </div>
-              <span class="h5 fw-bold nbr">3</span>
-            </div>
-
           </div>
-        </div>
+          <div class="card col-md-3 ps-0 pe-0 me-1 mb-2" style="width: 12rem; height: 9rem;">
+              <div class="card-body carditems--rose position-relative">
+                  <div class="cardstudents d-flex flex-column mt-2">
+                      <i class="fal fa-bookmark display-6"></i>
+                      <span>Cours</span>
+                  </div>
+                  <div>
+                      <span class="h5 fw-bold nbr">13</span>
+                  </div>
+              </div>
+          </div>
+          <div class="card col-md-3 ps-0 pe-0 me-1 mb-2" style="width: 12rem; height: 9rem;">
+              <div class="card-body carditems--yellow position-relative">
+                  <div class="cardstudents d-flex flex-column mt-2">
+                      <i class="fal fa-usd-square display-6"></i>
+                      <span>Payments</span>
+                  </div>
+                  <div>
+                      <span class="h5 fw-bold nbr">243</span>
+                  </div>
+              </div>
+          </div>
+          <div class="card col-md-3 ps-0 pe-0 me-1 mb-2" style="width: 12rem; height: 9rem;">
+              <div class="card-body carditems--gradient position-relative">
+                  <div class="cardstudents d-flex flex-column mt-2">
+                      <i class="fal fa-user display-6"></i>
+                      <span>Users</span>
+                  </div>
+                  <div>
+                      <span class="h5 fw-bold nbr">243</span>
+                  </div>
+              </div>
+          </div>
+          
+      </div>
+      </div>
       </div>
     </div>
   </main>

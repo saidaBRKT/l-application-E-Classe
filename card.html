@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cards</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+
+    <style>
+.carditems--blue {
+  background-color: #f0f9ff;
+  
+}
+.carditems--blue i {
+  color: #74c1ed;
+}
+.carditems--rose {
+  background-color: #fef6fb;
+}
+.carditems--rose i {
+  color: #ee95c5;
+}
+.carditems--yellow {
+  background-color: #fefbec;
+}
+.carditems--yellow i {
+  color: #00c1fe;
+}
+.carditems--gradient {
+  background: linear-gradient(110.42deg, #00c1fe 18.27%, #faffc1 91.84%);
+}
+.card__items--gradient i {
+  color: #ffffff;
+}
+.nbr {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid cont_cards col py-3 justify-content-center align-items-center">
+        <div class="cards row justify-content-center ">
+        <div class="card col-md-3 ps-0 pe-0 me-1 mb-2" style="width: 15rem; height: 10rem;">
+            <div class="card-body carditems--blue position-relative">
+                <div class="cardstudents d-flex flex-column mt-2">
+                    <i class="far fa-graduation-cap display-6 "></i>
+                    <span>Students</span>
+                </div>
+                <div>
+                    <span class="h5 fw-bold nbr">243</span>
+                </div>
+            </div>
+        </div>
+        <div class="card col-md-3 ps-0 pe-0 me-1 mb-2" style="width: 15rem; height: 10rem;">
+            <div class="card-body carditems--rose position-relative">
+                <div class="cardstudents d-flex flex-column mt-2">
+                    <i class="fal fa-bookmark display-6"></i>
+                    <span>Cours</span>
+                </div>
+                <div>
+                    <span class="h5 fw-bold nbr">13</span>
+                </div>
+            </div>
+        </div>
+        <div class="card col-md-3 ps-0 pe-0 me-1 mb-2" style="width: 15rem; height: 10rem;">
+            <div class="card-body carditems--yellow position-relative">
+                <div class="cardstudents d-flex flex-column mt-2">
+                    <i class="fal fa-usd-square display-6"></i>
+                    <span>Payments</span>
+                </div>
+                <div>
+                    <span class="h5 fw-bold nbr">243</span>
+                </div>
+            </div>
+        </div>
+        <div class="card col-md-3 ps-0 pe-0 me-1 mb-2" style="width: 15rem; height: 10rem;">
+            <div class="card-body carditems--gradient position-relative">
+                <div class="cardstudents d-flex flex-column mt-2">
+                    <i class="fal fa-user display-6"></i>
+                    <span>Users</span>
+                </div>
+                <div>
+                    <span class="h5 fw-bold nbr">243</span>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    </div>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

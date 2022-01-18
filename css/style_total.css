@@ -8,9 +8,9 @@
   padding: 0;
 }
 .cont {
-  background-color: var(--yellow_color);
   height: 100vh;
 }
+
 .title div h1 {
   border-left: 5px solid var(--blue_color);
   padding-left: 5px;
@@ -20,15 +20,21 @@
   width:70px;
    height:70px;
 }
-li {
+ul li {
+  border-bottom: 3px solid var(--blue_color);
   width: 100%;
-  padding: 0 0 0 10px;
+  padding: 0 10px 0 13px;
   border-radius: 5px;
-  margin: 0;
+  margin-top: 3px;
+}
+
+.li_home, .li_Students, .li_payments{
+  background-color: var(--blue_color);
 }
 li:hover {
   background-color: var(--blue_color);
 }
+
 .search input {
   position: relative;
 }
@@ -39,9 +45,7 @@ li:hover {
 .navigation{
 margin: 0;
 }
-td{
-  
-}
+
 /*students and payment ------------------------------------------------------------------*/
 .caption .plus {
   position: relative;
@@ -79,18 +83,14 @@ thead th:last-child{
   color: var(--bg);
 }
 
+
 /*home ------------------------------------------------------------------*/
 
-.cont_cards {
-  margin: auto;
+.card{
+  border: none; 
 }
-.cards {
-    left: 34%;
-  }
-.cards .carditems {
+.card-body{
   border-radius: 8px;
-  width: 170px;
-  height: 150px;
 }
 .carditems--blue {
   background-color: #f0f9ff;
@@ -163,7 +163,9 @@ td img{
   width: 60px;
   height: 40px;
 }
-
+.body{
+  background-color: var(--bg);
+}
 /*payment*/
 
 .payment tr {
@@ -176,4 +178,17 @@ td img{
 
 .payment tr:nth-child(odd) {
   background-color: #fff;
+}
+
+@media screen and (min-width: 576px) {
+  .cont {
+    background-color: var(--yellow_color);
+    height: 100vh;
+  }
+  ul li {
+    border: none;
+    padding: 0 0 0 10px;
+    
+  }
+  
 }
