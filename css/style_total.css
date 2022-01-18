@@ -76,7 +76,7 @@ td span i {
   background-color: var(--bg);
 }
 tr {
-  font-size: 9px;
+  font-size: 12px;
   text-align: center;
 }
 thead th:last-child{
@@ -167,11 +167,6 @@ td img{
   background-color: var(--bg);
 }
 /*payment*/
-
-.payment tr {
-  font-size: 9px;
-  text-align: center;
-}
 .payment th, .payment tr{
   background-color: var(--bg);
 }
