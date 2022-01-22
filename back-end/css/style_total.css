@@ -1,0 +1,189 @@
+:root {
+  --yellow_color: #faffc1;
+  --blue_color: #00c1fe;
+  --bg: #e5e5e5;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+.cont {
+  height: 100vh;
+}
+
+.title div h1 {
+  border-left: 5px solid var(--blue_color);
+  padding-left: 5px;
+  font-weight: 400;
+}
+.profile img{
+  width:70px;
+   height:70px;
+}
+ul li {
+  border-bottom: 3px solid var(--blue_color);
+  width: 100%;
+  padding: 0 10px 0 13px;
+  border-radius: 5px;
+  margin-top: 3px;
+}
+
+.li_home, .li_Students, .li_payments{
+  background-color: var(--blue_color);
+}
+li:hover {
+  background-color: var(--blue_color);
+}
+
+.search input {
+  position: relative;
+}
+.search i {
+  position: absolute;
+  right: 80px;
+}
+.navigation{
+margin: 0;
+}
+
+/*students and payment ------------------------------------------------------------------*/
+.caption .plus {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--blue_color);
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.caption .plus i {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 100%;
+  height: 100%;
+  color: var(--blue_color);
+}
+.caption i,
+td span i {
+  color: var(--blue_color);
+}
+.button {
+  width: 200px;
+  margin-left: 20px;
+  background-color: var(--blue_color);
+}
+.col2 {
+  background-color: var(--bg);
+}
+tr {
+  font-size: 12px;
+  text-align: center;
+}
+thead th:last-child{
+  color: var(--bg);
+}
+
+
+/*home ------------------------------------------------------------------*/
+
+.card{
+  border: none; 
+}
+.card-body{
+  border-radius: 8px;
+}
+.carditems--blue {
+  background-color: #f0f9ff;
+}
+.carditems--blue i {
+  color: #74c1ed;
+}
+.carditems--rose {
+  background-color: #fef6fb;
+}
+.carditems--rose i {
+  color: #ee95c5;
+}
+.carditems--yellow {
+  background-color: #fefbec;
+}
+.carditems--yellow i {
+  color: #00c1fe;
+}
+.carditems--gradient {
+  background: linear-gradient(110.42deg, #00c1fe 18.27%, #faffc1 91.84%);
+}
+.card__items--gradient i {
+  color: #ffffff;
+}
+.nbr {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.icone{
+    width: 50px;
+    height: 50px;
+}
+.econs, .econs2 {
+  width: 27px;
+}
+.econsNav {
+  margin-left: 300px;
+}
+.card_1 {
+  position: absolute;
+  width: 255px;
+  height: 157px;
+  left: 300px;
+  top: 90px;
+  background: #f0f9ff;
+  border-radius: 8px;
+}
+
+/*students ------------------------------------------------------------------*/
+
+.debut {
+  border-radius: 15px 0 0 15px;
+}
+.fin {
+  border-radius: 0 15px 15px 0;
+}
+.action span {
+  color: var(--blue_color);
+}
+.ligne {
+  background-color: white;
+  border: 5px var(--bg) solid;
+}
+.student tr th:first-child,.studenttr th:last-child{
+  color: var(--bg);
+}
+td img{
+  width: 60px;
+  height: 40px;
+}
+.body{
+  background-color: var(--bg);
+}
+/*payment*/
+.payment th, .payment tr{
+  background-color: var(--bg);
+}
+
+.payment tr:nth-child(odd) {
+  background-color: #fff;
+}
+
+@media screen and (min-width: 576px) {
+  .cont {
+    background-color: var(--yellow_color);
+    height: 100vh;
+  }
+  ul li {
+    border: none;
+    padding: 0 0 0 10px;
+    
+  }
+  
+}
