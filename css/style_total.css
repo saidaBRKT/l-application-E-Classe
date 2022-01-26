@@ -1,16 +1,20 @@
 :root {
   --yellow_color: #faffc1;
   --blue_color: #00c1fe;
-  --bg: #e5e5e5;
+  
 }
 * {
   margin: 0;
   padding: 0;
 }
-.cont {
-  height: 100vh;
-}
 
+.sidebar{
+  background-color: var(--yellow_color);
+ 
+}
+.cont{
+  padding-left: 10%;
+}
 .title div h1 {
   border-left: 5px solid var(--blue_color);
   padding-left: 5px;
@@ -18,23 +22,22 @@
 }
 .profile img{
   width:70px;
-   height:70px;
+  height:70px;
 }
-ul li {
-  border-bottom: 3px solid var(--blue_color);
+ul li, .logout {
+  
   width: 100%;
-  padding: 0 10px 0 13px;
   border-radius: 5px;
   margin-top: 3px;
 }
 
-.li_home, .li_Students, .li_payments{
+.logout{
+  height: 40px;
+  margin-bottom: 20px;
+}
+li:hover, .logout:hover {
   background-color: var(--blue_color);
 }
-li:hover {
-  background-color: var(--blue_color);
-}
-
 .search input {
   position: relative;
 }
@@ -42,27 +45,13 @@ li:hover {
   position: absolute;
   right: 80px;
 }
-.navigation{
-margin: 0;
-}
+
+
+
+
 
 /*students and payment ------------------------------------------------------------------*/
-.caption .plus {
-  position: relative;
-  width: 30px;
-  height: 30px;
-  border: 2px solid var(--blue_color);
-  border-radius: 5px;
-  margin-left: 5px;
-}
-.caption .plus i {
-  position: absolute;
-  left: 20%;
-  top: 20%;
-  width: 100%;
-  height: 100%;
-  color: var(--blue_color);
-}
+
 .caption i,
 td span i {
   color: var(--blue_color);
@@ -72,15 +61,10 @@ td span i {
   margin-left: 20px;
   background-color: var(--blue_color);
 }
-.col2 {
-  background-color: var(--bg);
-}
+
 tr {
   font-size: 12px;
   text-align: center;
-}
-thead th:last-child{
-  color: var(--bg);
 }
 
 
@@ -121,69 +105,50 @@ thead th:last-child{
   right: 10px;
   bottom: 10px;
 }
-.icone{
-    width: 50px;
-    height: 50px;
-}
-.econs, .econs2 {
-  width: 27px;
-}
-.econsNav {
-  margin-left: 300px;
-}
-.card_1 {
-  position: absolute;
-  width: 255px;
-  height: 157px;
-  left: 300px;
-  top: 90px;
-  background: #f0f9ff;
-  border-radius: 8px;
-}
+
 
 /*students ------------------------------------------------------------------*/
 
+.caption .plus {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--blue_color);
+  border-radius: 5px;
+  margin-left: 5px;
+}
+.caption .plus i {
+  position: absolute;
+  left: 20%;
+  top: 20%;
+  width: 100%;
+  height: 100%;
+  color: var(--blue_color);
+}
+.action span {
+  color: var(--blue_color);
+}
+td img{
+  width: 60px;
+  height: 40px;
+}
 .debut {
   border-radius: 15px 0 0 15px;
 }
 .fin {
   border-radius: 0 15px 15px 0;
 }
-.action span {
-  color: var(--blue_color);
-}
-.ligne {
+/*payments ------------------------------------------------------------------*/
+
+.payments tr:nth-child(odd){
   background-color: white;
-  border: 5px var(--bg) solid;
-}
-.student tr th:first-child,.studenttr th:last-child{
-  color: var(--bg);
-}
-td img{
-  width: 60px;
-  height: 40px;
-}
-.body{
-  background-color: var(--bg);
-}
-/*payment*/
-.payment th, .payment tr{
-  background-color: var(--bg);
 }
 
-.payment tr:nth-child(odd) {
-  background-color: #fff;
-}
 
 @media screen and (min-width: 576px) {
-  .cont {
-    background-color: var(--yellow_color);
-    height: 100vh;
-  }
-  ul li {
-    border: none;
-    padding: 0 0 0 10px;
-    
+  
+  ul li, .logout {
+    padding: 0 30px 0 30px; 
   }
   
 }
